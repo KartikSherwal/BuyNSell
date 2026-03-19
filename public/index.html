@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuyandSell</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <script type="importmap">
+    {
+      "imports": {
+        "@material/web/": "https://esm.run/@material/web/"
+      }
+    }
+  </script>
+  <script type="module">
+    import '@material/web/all.js';
+    import {styles as typescaleStyles} from '@material/web/typography/md-typescale-styles.js';
+
+    document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
+  </script>
+</head>
+
+<body>
+
+    <nav>
+        <h1>BuynSell</h1>
+        <div class="nav-right">
+            <div class="search-box">
+                <input type="text" placeholder="Search products...">
+                <button>🔍</button>
+            </div>
+
+            <a href="index.html" class="nav-pill">Home</a>
+            <a href="about.html" class="nav-pill">About</a>
+            <a href="contact.html" class="nav-pill">Contact Us</a>
+        </div>
+    </nav>
+    <main>
+        <div class="boxes">  
+            <div class="containers">
+                <img src="./images/img.jpg" alt="">
+                <div class="info">
+                    <h3>55$</h3>
+                </div>    
+            </div>
+            <div class="containers">
+                <div class="info">
+                    <h3>5$</h3>
+                </div>        
+            </div>
+            <div class="containers">
+                <div class="info">
+                    <h3>95$</h3>
+                </div>        
+            </div>
+            <div class="containers">
+                <div class="info">
+                    <h3>6705555$</h3>
+                </div>        
+            </div>
+            <div class="containers">
+                <div class="info">
+                    <h3>out of aukat$</h3>
+                </div>        
+            </div>
+            <div class="containers">
+                <div class="info">
+                    <h3>78$</h3>
+                </div>        
+            </div>
+             
+            </div>
+        </div>
+        <div class="clothes">
+                <button class="clothes-btn" onclick="openClothes()">
+                    <img src="./images/clothes.png" alt="">
+                    <i class="fa-solid fa-shirt"></i>
+                </button>
+        </div>
+    </main>
+<script src="./js/script.js"></script>
+</body>
+
+</html>
