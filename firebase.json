@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "buynsell-fa42c",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
