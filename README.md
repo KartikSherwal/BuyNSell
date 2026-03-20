@@ -2,7 +2,7 @@
 
 BuyNSell Web is the browser-based extension of the BuyNSell platform, designed to bring the campus marketplace experience to a wider audience with a fast, responsive, and scalable web interface.
 
-It complements the Android application by enabling students to browse, list, and manage items seamlessly across devices.
+It complements the webapp by enabling students to browse, list, and manage items seamlessly across devices.
 
 🚀 Developed by Kartik Sherwal
 
